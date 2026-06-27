@@ -1,0 +1,21 @@
+# === SECRETO - NUNCA SUBIR ===
+.env
+*.json.key
+*.pem
+
+# === Datos privados ===
+bitacora.json
+perfiles.json
+
+# === Pesado y regenerable ===
+venv/
+__pycache__/
+*.pyc
+
+# === Backups y borradores viejos ===
+*.backup
+*.backup2
+*.bak
+
+# === Logs ===
+*.log
